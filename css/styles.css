@@ -892,11 +892,13 @@ address .link.secondary:focus {
   width: 64px;
   height: 64px;
   border-radius: 50%;
+  border: 1px solid #2196f3;
+  box-shadow: 2px 2px 4px 0px #21212180, inset 0px 0px 4px 0px #21212180;
   background-image: url('../images/support.svg');
   background-color: #fff;
 }
 
-.support .tool-tip {
+.support__tooltip {
   bottom: 75px;
   left: 0px;
   min-width: 200px;
@@ -910,7 +912,7 @@ address .link.secondary:focus {
   transition: opacity var(--transition-style) 100ms, transform var(--transition-style) 100ms;
 }
 
-.support:hover .tool-tip {
+.support:hover .support__tooltip {
   opacity: 1;
   transform: scale(1) translateY(0);
   left: 0;
