@@ -135,12 +135,12 @@ p {
   margin-right: 10px;
 }
 
+.site-nav .link.current,
 .site-nav .link:hover,
 .site-nav .link:focus,
 .header-addresses .link:hover,
 .header-addresses .link:focus {
   color: var(--primary-background-color);
-  /* fill: var(--primary-background-color); */
   fill: currentColor;
 }
 
@@ -253,6 +253,10 @@ footer {
 
 .feature-list {
   display: flex;
+}
+
+.feature-list .item {
+  width: 100%;
 }
 
 .feature-list .icon {
