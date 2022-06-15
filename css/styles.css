@@ -626,9 +626,6 @@ address .link.secondary:focus {
   display: flex;
 }
 
-.subscription-form .subscription-label {
-}
-
 .subscription-form .subscription-email {
   flex: 1;
   height: 50px;
