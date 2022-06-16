@@ -638,7 +638,7 @@ a {
 }
 
 .page-footer__submit-button {
-  width: 200px;
+  min-width: 200px;
 }
 
 .page-footer__icon-send {
@@ -814,6 +814,8 @@ a {
   fill: white;
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
+  transition: fill var(--transition-style), background var(--transition-style),
+    border-color var(--transition-style);
 }
 
 .form-field__input:checked + .form-field__check {

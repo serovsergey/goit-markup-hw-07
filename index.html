@@ -18,11 +18,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="page-header section">
-      <div class="container">
+      <div class="page-header__container container">
         <nav class="page-header__nav">
           <a href="./index.html" class="page-header__logo logo"
             ><span class="logo__web">Web</span>Studio</a
@@ -418,30 +418,30 @@
         </div>
         <div class="page-footer__social-networks">
           <p class="page-footer__social-networks-title">Присоединяйтесь</p>
-          <ul class="page-footer__social-links social-links social-links--left-justified no-mark">
+          <ul class="page-footer__social-links social-links no-mark">
             <li class="social-links__item">
-              <a class="social-links__link social-links__link--alternate" href="">
+              <a class="page-footer__social-link social-links__link" href="">
                 <svg class="social-links__icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-links__item">
-              <a class="social-links__link social-links__link--alternate" href="">
+              <a class="page-footer__social-link social-links__link" href="">
                 <svg class="social-links__icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-links__item">
-              <a class="social-links__link social-links__link--alternate" href="">
+              <a class="page-footer__social-link social-links__link" href="">
                 <svg class="social-links__icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-links__item">
-              <a class="social-links__link social-links__link--alternate" href="">
+              <a class="page-footer__social-link social-links__link" href="">
                 <svg class="social-links__icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -452,14 +452,13 @@
         <div class="page-footer__subscription">
           <p class="page-footer__subscribe-title">Подпишитесь на рассылку</p>
           <form class="page-footer__subscription-form">
-            <!-- <label class="subscription-label"> -->
+            <label class="visually-hidden">E-mail</label>
             <input
               class="page-footer__subscription-email"
               type="email"
               name="email"
               placeholder="E-mail"
             />
-            <!-- </label> -->
             <button class="page-footer__submit-button button button--primary" type="submit">
               Подписаться
               <svg class="page-footer__icon-send">
@@ -479,7 +478,7 @@
         </button>
         <!-- <div class="modal__content"> -->
         <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
-        <form class="request-form">
+        <form action="" class="request-form" name="request-form" autocomplete="on">
           <label class="form-field">
             <span class="form-field__label">Имя</span>
             <div class="form-field__wrapper">
